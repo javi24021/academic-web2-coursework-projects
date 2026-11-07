@@ -11,7 +11,7 @@
 
 ---
 
-## 📁 Projects Timeline
+## Projects Timeline
 
 | Project | Stack | Highlights | Status |
 | :--- | :--- | :--- | :--- |
