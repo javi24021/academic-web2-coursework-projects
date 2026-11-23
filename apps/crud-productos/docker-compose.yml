@@ -1,0 +1,24 @@
+services:
+  web:
+    build:
+      context: .
+      target: production
+      network: host
+    container_name: crud-productos-nginx
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+
+  dev:
+    profiles: ["dev"]
+    build:
+      context: .
+      target: dev
+      network: host
+    container_name: crud-productos-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./src:/app/src
+      - ./index.html:/app/index.html
+    restart: unless-stopped

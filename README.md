@@ -16,6 +16,7 @@
 | Project | Stack | Highlights | Status |
 | :--- | :--- | :--- | :--- |
 | **[Veterinaria La Vaca Loca](./apps/veterinaria-la-vaca-loca)** | React + Vite + CSS Modules | Veterinary management SPA featuring patient records (CRUD), responsive navigation, theme switching, and custom routing. | Completed |
+| **[CRUD Productos](./apps/crud-productos)** | React + TypeScript + Vite | Product management SPA featuring local and API CRUD operations, reusable components, and responsive layout. | Completed |
 
 ---
 
